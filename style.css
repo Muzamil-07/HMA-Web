@@ -1,0 +1,316 @@
+body{
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+    color: rgb(85, 84, 82);
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top:-4rem;
+}
+
+/************* Navbar And Home Section ***********/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    background: rgb(0, 0, 0,0.6)!important;
+
+}
+span.navbar-brand{
+   margin-left: 10px;
+   font-size: 26px;
+   font-weight: 800;
+   color: rgb(255, 149, 4)!important;
+}
+li.nav-item{
+    padding-right: 0.7rem;
+}
+ul.navbar-nav li.nav-item a.nav-link{
+    color: white;
+    /* padding: 0.7rem; */
+}
+ul.navbar-nav li.nav-item a.nav-link.active,ul.navbar-nav li.nav-item a.nav-link:hover{
+    color:  rgb(255, 149, 4);
+}
+
+/*************** Backgroung img  ****************/
+
+.home-inner{
+    background: url(img/computers.png);
+}
+div.caption{
+    width: 100%;
+    /* max-width: 100%; */
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    color: white;
+}
+div.caption h1{
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    font-weight: 700;
+    font-size: 4.4rem;
+    padding-bottom: 0.8rem;
+    word-spacing: 10px;
+}
+div.caption h3{
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    word-spacing: 10px;
+    padding-bottom: 0.8rem;
+}
+a.btn{
+    border-radius:0px !important;
+    padding: 15px;
+    border-width: 3px;
+}
+ 
+
+
+    /****************** Course Section *********************/
+
+.narrow{
+    width:75%;
+    margin:1.2rem auto;
+    padding: 2rem;
+}
+.narrow h1{
+    color:rgb(255, 149, 4) ;
+    padding-bottom: 20px;
+    
+}
+.narrow p{
+    padding-bottom: 20px;
+    
+}
+.narrow a.btn{
+    border-radius:0 !important;
+    border-width:3px ;
+    background-color:rgb(255, 149, 4);
+    border-color:rgb(255, 149, 4) ;
+    text-transform: uppercase;
+    padding:10px;
+    
+}
+.narrow a.btn:hover{
+    background-color:rgb(255, 130, 4);
+    border-color:rgb(255, 130, 4);
+    
+}
+
+
+   /****************** Feature Section *********************/
+
+.jumbotron{
+    margin-bottom: 0;
+    padding:2rem 0 3.5rem;
+    border-radius:0;
+}
+h3.heading{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9rem;
+    /* color: rgb(255, 149, 4); */
+    margin-bottom: 1.9rem;
+    padding-top: 1.2rem;
+    
+}
+.heading-underline{
+    width:3rem;
+    height: 0.2rem;
+    background-color:rgb(255, 149, 4);
+    margin:0 auto 0.9rem;
+  
+}
+.svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14,.svg-inline--fa.fa-w-20,.svg-inline--fa.fa-w-12{
+    color:rgb(255, 149, 4);
+}
+.feature-item h4{
+ text-transform: uppercase;
+ font-weight: 300;
+ padding-bottom: 6px;
+}
+.feature-item p{
+   font-size: 13px;
+}
+
+
+ /****************** Resources Section *********************/
+
+.fixed{
+    background-image: url(img/apple.png);
+}
+.dark{
+    background:rgb(0, 0, 0,0.7);
+    color: white;
+}
+.fixed-background h3.heading{
+    padding-top:2rem ;
+}
+.fixed-background p{
+    margin-top:20px;
+    margin-bottom: 100px;
+}
+.fixed-background h4{
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+
+
+
+/************************* Client Section ************************/
+
+.client img{
+    /* width: 100%; */
+    border-radius: 50%;
+}
+blockquote .svg-inline--fa.fa-w-16{
+    margin: 1rem;
+}
+.clients-hr{
+    border-color:rgb(255, 149, 4) ;
+    border-width: 1px;
+    
+}
+div#clients p{
+    margin-top:20px;
+    padding-bottom: 20px;
+}
+div#clients a.btn{
+    border-radius:0 !important;
+    border-width:3px ;
+    background-color:rgb(255, 149, 4);
+    border-color:rgb(255, 149, 4) ;
+    padding:10px;
+    margin-bottom: 20px;
+}
+div#clients a.btn:hover{
+    background-color:rgb(255, 130, 4);
+    border-color:rgb(255, 130, 4);
+}
+
+
+/******************* Footer Section *********************/
+
+footer{
+    background-color: #40474e;
+    color: white;
+}
+div#contact p{
+    font-size: 14px;
+    font-weight: 10px;
+}
+footer  .svg-inline--fa.fa-w-14:hover{
+   color: whitesmoke;
+}
+a .fa-facebook-square{
+    color:#4267B2 !important;
+}
+a .fa-twitter-square{
+    color: #1DA1F2 !important;
+}
+a .fa-instagram{
+    color:  #C13584 !important;
+}
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* Large Devices */
+@media(min-width:1200px){
+    
+} 
+
+
+/* Medium Devices */
+@media(max-width:1199px){
+
+}
+
+
+/* Small Devices */
+@media(max-width:992px){
+
+}
+
+
+/* Extra-Small Devices */
+@media(max-width:768px){
+
+}
+
+
+/* Extra-Extra-Small Devices */
+@media(max-width:576px){
+    div.caption h1{
+        text-shadow: 0.1rem 0.1rem 0.8rem black;
+        font-weight: 500;
+        font-size: 3.4rem;
+        padding-bottom: 0.5rem;
+        word-spacing: 6px;
+    }
+    div.caption h3{
+        text-shadow: 0.1rem 0.1rem 0.5rem black;
+        font-weight: 400;
+        font-size: 1rem;
+        word-spacing: 6px;
+        padding-bottom: 0.5rem;
+    }
+    a.btn{
+        border-radius:0px !important;
+        padding: 10px;
+        border-width: 3px;
+        font-size: 16px;
+    }
+    .narrow h1{
+           font-size: 2.4rem;       
+        padding-bottom: 15px;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+
+
+
+
