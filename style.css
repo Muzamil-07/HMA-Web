@@ -40,7 +40,9 @@ ul.navbar-nav li.nav-item a.nav-link.active,ul.navbar-nav li.nav-item a.nav-link
 
 .home-inner{
     background: url(img/computers.png);
+  
 }
+
 div.caption{
     width: 100%;
     /* max-width: 100%; */
@@ -72,7 +74,10 @@ a.btn{
 
 
     /****************** Course Section *********************/
-
+#courses{
+    padding-top:85px ;
+    padding-bottom:40px ;
+}
 .narrow{
     width:75%;
     margin:1.2rem auto;
